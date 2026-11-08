@@ -72,11 +72,6 @@
   <img src="assets/svg/activity-dark.svg" width="100%" alt="Contribution activity: 7 contributions in the last year. Top languages: TypeScript 86.8%, PLpgSQL 7.3%, JavaScript 4.1%, CSS 1.3%, Other 0.3%.">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/svg/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/svg/footer-light.svg">
-  <img src="assets/svg/footer-dark.svg" width="100%" alt="Thanks for stopping by. Built with care, code and a lot of music.">
-</picture>
 <p><sub><a href="https://sqwer2017.github.io/Sqwer2017/">Open the interactive profile</a> &nbsp;·&nbsp; <a href="https://github.com/Sqwer2017/Sqwer2017">Source</a> &nbsp;·&nbsp; <a href="SETUP.md">Setup &amp; docs</a></sub></p>
 
 </div>
