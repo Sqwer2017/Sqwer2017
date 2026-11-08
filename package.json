@@ -1,0 +1,17 @@
+{
+  "name": "sqwer-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A custom dark-violet GitHub profile: generated SVG components, an interactive page and automated public data.",
+  "scripts": {
+    "fetch": "node scripts/fetch-github.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "refresh": "npm run fetch && npm run build && npm run validate"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

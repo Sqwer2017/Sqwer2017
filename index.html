@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sqwer — Frontend Developer &amp; UI Enthusiast</title>
+  <meta name="description" content="Sqwer — frontend developer and UI enthusiast. A dark-violet interactive profile: selected projects, tech stack, GitHub signals and a small custom design system.">
+  <meta name="author" content="Sqwer">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0D0A13">
+  <link rel="canonical" href="https://sqwer2017.github.io/Sqwer2017/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sqwer — Frontend Developer &amp; UI Enthusiast">
+  <meta property="og:description" content="Building digital experiences, experimenting with ideas and creating things that matter.">
+  <meta property="og:url" content="https://sqwer2017.github.io/Sqwer2017/">
+  <meta property="og:image" content="https://sqwer2017.github.io/Sqwer2017/assets/images/background.jpg">
+  <meta property="og:image:width" content="736">
+  <meta property="og:image:height" content="414">
+  <meta property="og:image:alt" content="Glowing violet spider lilies on a black background">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://sqwer2017.github.io/Sqwer2017/assets/images/background.jpg">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/images/avatar.jpg" as="image">
+  <link rel="stylesheet" href="src/css/tokens.generated.css">
+  <link rel="stylesheet" href="src/css/variables.css">
+  <link rel="stylesheet" href="src/css/base.css">
+  <link rel="stylesheet" href="src/css/components.css">
+  <link rel="stylesheet" href="src/css/animations.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+
+  <script>
+    // Choose the theme before first paint. Dark is the intended default; a saved choice wins.
+    (function () {
+      try {
+        var saved = localStorage.getItem('sqwer-theme');
+        var theme = saved === 'light' || saved === 'dark' ? saved : 'dark';
+        document.documentElement.dataset.theme = theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = 'dark';
+      }
+      document.documentElement.classList.add('js');
+    })();
+  </script>
+  <script type="module" src="src/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="intro" id="intro" aria-hidden="true">
+    <span class="intro__mark">S</span>
+    <span class="intro__bar"><i></i></span>
+  </div>
+
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+  <canvas class="atmosphere" id="atmosphere" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"></span></div>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="brand" href="#hero" aria-label="Sqwer — back to the top">
+        <span class="brand__mark" aria-hidden="true">S</span>
+        <span class="brand__name">SQWER</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#stack">Stack</a>
+        <a href="#work">Work</a>
+        <a href="#signals">Signals</a>
+        <a href="#activity">Activity</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false" data-ripple>
+          <span class="icon theme-toggle__moon" data-icon="ui-moon" aria-hidden="true"></span>
+          <span class="icon theme-toggle__sun" data-icon="ui-sun" aria-hidden="true"></span>
+        </button>
+        <a class="nav__github" href="https://github.com/Sqwer2017" target="_blank" rel="noopener noreferrer" aria-label="Sqwer on GitHub">
+          <span class="icon" data-icon="github" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div id="sections">
+      <section class="hero section" id="hero" data-section="hero" aria-labelledby="hero-name">
+        <div class="container hero__container">
+          <div class="hero__card" id="hero-card" data-parallax-scene data-reveal>
+            <div class="hero__media" aria-hidden="true"></div>
+            <div class="hero__mesh" aria-hidden="true"></div>
+            <canvas class="morph-field" id="morph-field" aria-hidden="true"></canvas>
+            <div class="hero__glow" aria-hidden="true"></div>
+            <div class="hero__arc" aria-hidden="true"></div>
+
+            <div class="hero__inner">
+              <div class="hero__portrait" data-parallax="0.035">
+                <div class="portrait__halo" aria-hidden="true"></div>
+                <svg class="portrait__orbit" viewBox="0 0 360 360" aria-hidden="true">
+                  <circle cx="180" cy="180" r="172" class="orbit-ring"/>
+                  <circle cx="180" cy="8" r="3" class="orbit-dot"/>
+                  <circle cx="329" cy="286" r="2" class="orbit-dot orbit-dot--soft"/>
+                </svg>
+                <div class="portrait__float">
+                  <div class="portrait__blob">
+                    <img id="hero-avatar" src="assets/images/avatar.jpg" alt="Sqwer's avatar: a violet-lit character with glowing eyes and dark horns" width="735" height="714" fetchpriority="high">
+                    <span class="portrait__tint" aria-hidden="true"></span>
+                  </div>
+                  <span class="portrait__badge"><i aria-hidden="true"></i> SQWER</span>
+                  <span class="portrait__spark" aria-hidden="true">✦</span>
+                </div>
+              </div>
+
+              <div class="hero__copy">
+                <p class="eyebrow eyebrow--hero" data-reveal style="--reveal-delay: .1s">
+                  <span class="eyebrow__line" aria-hidden="true"></span>
+                  <span id="hero-greeting">HELLO, I'M</span>
+                </p>
+                <h1 class="hero__name" id="hero-name" aria-label="Sqwer">SQWER</h1>
+                <p class="hero__role" data-reveal style="--reveal-delay: .45s">
+                  <span id="hero-role">Frontend Developer</span>
+                  <span class="hero__slash" aria-hidden="true">/</span>
+                  <span id="hero-subrole">UI Enthusiast</span>
+                </p>
+                <p class="hero__lede" id="hero-lede" data-reveal style="--reveal-delay: .55s">Building digital experiences, experimenting with ideas and creating things that matter.</p>
+                <ul class="chips" id="hero-chips" aria-label="A few things about me"></ul>
+                <a class="hero__handle" id="hero-handle" href="https://github.com/Sqwer2017" target="_blank" rel="noopener noreferrer" data-reveal style="--reveal-delay: .75s">
+                  <span class="icon" data-icon="github" aria-hidden="true"></span>
+                  <span>github.com/Sqwer2017</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero__meta">
+              <span>PROFILE / 2026</span>
+              <a class="hero__scroll" href="#connect" aria-label="Scroll to the next section">
+                <span>Scroll to explore</span>
+                <span class="icon" data-icon="ui-down"></span>
+              </a>
+              <span>DIGITAL ATMOSPHERE</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="connect" data-section="socials" aria-labelledby="connect-title">
+        <div class="container">
+          <header class="section-head" data-reveal>
+            <div class="section-head__main">
+              <p class="eyebrow" id="connect-eyebrow">01 / CONNECT</p>
+              <h2 id="connect-title">Around the web</h2>
+            </div>
+            <p class="section-head__note" id="connect-note">Three places to find me.</p>
+          </header>
+          <div class="socials-grid" id="socials-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="about" data-section="about" aria-labelledby="about-title">
+        <div class="container">
+          <header class="section-head" data-reveal>
+            <div class="section-head__main">
+              <p class="eyebrow" id="about-eyebrow">02 / ABOUT</p>
+              <h2 id="about-title">About Me</h2>
+            </div>
+            <p class="section-head__note" id="about-note">A short version of what I do, in five pieces.</p>
+          </header>
+          <div class="bento" id="about-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="stack" data-section="stack" aria-labelledby="stack-title">
+        <div class="container">
+          <header class="section-head" data-reveal>
+            <div class="section-head__main">
+              <p class="eyebrow" id="stack-eyebrow">03 / TOOLKIT</p>
+              <h2 id="stack-title">Tech Stack</h2>
+            </div>
+            <p class="section-head__note" id="stack-note">The tools I reach for most.</p>
+          </header>
+          <div class="stack" id="stack-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="work" data-section="projects" aria-labelledby="work-title">
+        <div class="container">
+          <header class="section-head" data-reveal>
+            <div class="section-head__main">
+              <p class="eyebrow" id="work-eyebrow">04 / WORK</p>
+              <h2 id="work-title">Featured Projects</h2>
+            </div>
+            <p class="section-head__note" id="work-note">Two things I keep coming back to.</p>
+          </header>
+          <div class="projects" id="projects-list"></div>
+        </div>
+      </section>
+
+      <section class="section" id="signals" data-section="stats" aria-labelledby="signals-title">
+        <div class="container">
+          <header class="section-head" data-reveal>
+            <div class="section-head__main">
+              <p class="eyebrow" id="signals-eyebrow">05 / SIGNALS</p>
+              <h2 id="signals-title">GitHub Statistics</h2>
+            </div>
+            <p class="section-head__note" id="signals-note">Public numbers, refreshed automatically.</p>
+          </header>
+
+          <div class="stat-grid" id="stat-grid"></div>
+
+          <div class="signals-panel" data-reveal>
+            <div class="signals-panel__head">
+              <div>
+                <p class="micro-label">CONTRIBUTIONS · LAST 12 MONTHS</p>
+                <p class="signals-total"><strong id="contrib-total">—</strong> <span id="contrib-caption">contributions</span></p>
+              </div>
+              <p class="signals-panel__updated" id="signals-updated"></p>
+            </div>
+
+            <div class="signals-body">
+              <div class="heatmap-block">
+                <div class="heatmap" id="heatmap" role="img" aria-label="Contribution heatmap for the last year"></div>
+                <p class="heatmap-hint">Swipe the grid to see the full year <span aria-hidden="true">→</span></p>
+                <div class="heatmap-legend" aria-hidden="true">
+                  <span>Less</span>
+                  <i style="--h: var(--heat-0)"></i><i style="--h: var(--heat-1)"></i><i style="--h: var(--heat-2)"></i><i style="--h: var(--heat-3)"></i><i style="--h: var(--heat-4)"></i>
+                  <span>More</span>
+                </div>
+              </div>
+
+              <aside class="languages-panel" aria-label="Top languages">
+                <p class="micro-label">TOP LANGUAGES</p>
+                <div class="language-bar" id="language-bar"></div>
+                <ul class="language-legend" id="language-legend"></ul>
+                <p class="languages-note">By bytes across original repositories.</p>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="activity" data-section="activity" aria-labelledby="activity-title">
+        <div class="container">
+          <header class="section-head" data-reveal>
+            <div class="section-head__main">
+              <p class="eyebrow" id="activity-eyebrow">06 / ACTIVITY</p>
+              <h2 id="activity-title">Activity</h2>
+            </div>
+            <p class="section-head__note" id="activity-note">A year of commits, in one quiet grid.</p>
+          </header>
+
+          <div class="rhythm-panel" data-reveal>
+            <div class="rhythm-panel__head">
+              <div>
+                <p class="micro-label">MONTHLY RHYTHM</p>
+                <p class="rhythm-title">Small, deliberate strokes.</p>
+                <p class="rhythm-range" id="rhythm-range">Nov 2025 — Nov 2026</p>
+              </div>
+              <dl class="rhythm-facts" id="rhythm-facts">
+                <div><dt>Total</dt><dd id="rhythm-total">—</dd></div>
+                <div><dt>Active days</dt><dd id="rhythm-days">—</dd></div>
+                <div><dt>Peak day</dt><dd id="rhythm-peak">—</dd></div>
+              </dl>
+            </div>
+            <div class="rhythm-chart" id="rhythm-chart" role="img" aria-label="Weekly contribution activity for the last year"></div>
+            <div class="rhythm-axis" id="rhythm-axis"><span>Nov</span><span>Nov</span></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer" id="page-footer" data-section="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand__mark" aria-hidden="true">S</span>
+        <p class="footer__line">Thanks for stopping by.</p>
+        <p class="footer__note">Built with care, code and a lot of music.</p>
+      </div>
+      <div class="footer__side">
+        <nav class="footer__socials" id="footer-socials" aria-label="Elsewhere"></nav>
+        <a class="footer__top" href="#hero">Back to top <span class="icon" data-icon="ui-arrow" aria-hidden="true"></span></a>
+      </div>
+      <div class="footer__base">
+        <span id="footer-copy">© 2026 Sqwer</span>
+        <span class="footer__badge"><i aria-hidden="true"></i> Digital atmosphere</span>
+        <a href="https://github.com/Sqwer2017/Sqwer2017" target="_blank" rel="noopener noreferrer">Source &amp; setup</a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <div class="noscript">
+      <p>This interactive profile is built with JavaScript. You can still find the work on <a href="https://github.com/Sqwer2017">GitHub</a>.</p>
+    </div>
+  </noscript>
+</body>
+</html>

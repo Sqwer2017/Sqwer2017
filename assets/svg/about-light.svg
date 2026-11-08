@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="480" viewBox="0 0 880 480" fill="none" role="img" aria-label="About Me. Frontend &amp; UI/UX: Building responsive, fast, and interactive web applications (React / TS / Tailwind). Personal: Musicaholic. Backend &amp; Tooling: Writing Python scripts, automation workflows, and lightweight serverless APIs. Audio &amp; Media: Passionate about web music players, custom components, and media streaming. Hardware &amp; Benchmarking: Deep diving into PC cooling, GPU tuning, and system optimization.">
+<defs><linearGradient id="about-card" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EFE6FA"/></linearGradient>
+<linearGradient id="about-feature" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#EEE4FB"/><stop offset="0.7" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EFE6FA"/></linearGradient>
+<radialGradient id="about-wash" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#5F35B8" stop-opacity="0.22"/><stop offset="1" stop-color="#5F35B8" stop-opacity="0"/></radialGradient>
+<linearGradient id="about-eq" x1="0" y1="1" x2="1" y2="0" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#8D5CF6"/><stop offset="1" stop-color="#5F35B8"/></linearGradient></defs>
+<style>
+  text { font-family: 'Segoe UI Variable Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+  .display { font-family: 'Segoe UI Variable Display', 'Segoe UI Variable Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+  .enter { animation: enter 0.8s cubic-bezier(0.22, 0.68, 0, 1) backwards; }
+  .fade { animation: fade 1s ease backwards; }
+  .float { animation: float 8s ease-in-out infinite; }
+  .float-slow { animation: float 12s ease-in-out infinite; }
+  .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 11s ease-in-out infinite; }
+  .spin { transform-box: view-box; transform-origin: 215px 224px; animation: spin 52s linear infinite; }
+  .pulse { animation: pulse 7s ease-in-out infinite; }
+  .eq { transform-box: fill-box; transform-origin: bottom; animation: eq 1.6s ease-in-out infinite; }
+  @keyframes enter {
+    from { opacity: 0; transform: translateY(14px); filter: blur(6px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+  }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+  @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.018); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.85; } }
+  @keyframes eq { 0%, 100% { transform: scaleY(0.32); } 50% { transform: scaleY(1); } }
+  @media (prefers-reduced-motion: reduce) {
+    .enter, .fade, .float, .float-slow, .breathe, .spin, .pulse, .eq { animation: none !important; }
+  }
+</style>
+
+<text x="44" y="40" class="mono" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#7548C9">02 / ABOUT</text>
+<text x="44" y="80" class="display" font-size="31" font-weight="700" letter-spacing="-0.6" fill="#181124">About Me</text>
+<text x="836" y="76" text-anchor="end" font-size="12" fill="#6F637F">A short version of what I do, in five pieces.</text>
+<path d="M44 98H836" stroke="rgba(117,72,201,0.16)" stroke-width="1"/>
+
+<g>
+  <rect x="44" y="116" width="456" height="168" rx="24" fill="url(#about-card)" stroke="rgba(117,72,201,0.21)"/>
+  <path d="M68 117H476" stroke="rgba(255,255,255,0.95)" stroke-opacity="0.8"/>
+  
+</g>
+<g>
+  <rect x="68" y="140" width="40" height="40" rx="14" fill="rgba(117,72,201,0.06)" stroke="rgba(117,72,201,0.2)"/>
+  <svg x="78" y="150" width="20" height="20" viewBox="0 0 24 24" color="#8D5CF6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7 4 12l5 5M15 7l5 5-5 5"/><path d="M13.5 5.5 10.5 18.5"/></svg>
+  <text x="68" y="192" font-size="17" font-weight="600" fill="#181124" letter-spacing="-0.2">Frontend &amp; UI/UX</text>
+  <text x="68" y="216" font-size="13" fill="#5E5470">Building responsive, fast, and interactive</text><text x="68" y="235" font-size="13" fill="#5E5470">web applications (React / TS / Tailwind).</text>
+
+  <g>
+    <rect x="348" y="150" width="128" height="100" rx="14" fill="#F7F2FD" stroke="rgba(117,72,201,0.21)"/>
+    <circle cx="364" cy="165" r="2" fill="#7548C9" opacity="0.7"/>
+    <circle cx="372" cy="165" r="2" fill="#7548C9" opacity="0.4"/>
+    <circle cx="380" cy="165" r="2" fill="#7548C9" opacity="0.22"/>
+    <path d="M348 177H476" stroke="rgba(117,72,201,0.21)"/>
+    <rect x="362" y="192" width="76" height="6" rx="3" fill="#7548C9" opacity="0.38"/>
+    <rect x="362" y="205" width="52" height="6" rx="3" fill="#7548C9" opacity="0.2"/>
+    <rect x="362" y="218" width="64" height="6" rx="3" fill="#7548C9" opacity="0.12"/>
+    <rect x="362" y="233" width="38" height="10" rx="5" fill="#5F35B8" opacity="0.55"/>
+  </g>
+  <text x="476" y="146" text-anchor="end" class="mono" font-size="8.5" letter-spacing="1.2" fill="#6F637F" opacity="0.6">01</text>
+</g>
+
+<g>
+  <rect x="512" y="116" width="324" height="168" rx="24" fill="url(#about-feature)" stroke="rgba(117,72,201,0.32)"/>
+  <path d="M536 117H812" stroke="rgba(255,255,255,0.95)" stroke-opacity="0.8"/>
+  <rect x="512" y="116" width="324" height="168" rx="24" fill="url(#about-wash)" opacity="0.5"/>
+</g>
+<g>
+  <rect x="536" y="140" width="40" height="40" rx="14" fill="rgba(117,72,201,0.06)" stroke="rgba(117,72,201,0.2)"/>
+  <svg x="546" y="150" width="20" height="20" viewBox="0 0 24 24" color="#8D5CF6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V6.2l10-2v11.6"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="15.8" r="2.5"/></svg>
+  <text x="536" y="192" font-size="17" font-weight="600" fill="#181124" letter-spacing="-0.2">Personal</text>
+  <text x="536" y="234" font-size="21" font-weight="600" fill="#8D5CF6" letter-spacing="-0.3">Musicaholic.</text>
+  <g>
+    <rect class="eq" style="animation-delay: 0.00s" x="740" y="248" width="4" height="16" rx="2" fill="url(#about-eq)" opacity="0.55"/><rect class="eq" style="animation-delay: -0.22s" x="752" y="234" width="4" height="30" rx="2" fill="url(#about-eq)" opacity="0.7000000000000001"/><rect class="eq" style="animation-delay: -0.44s" x="764" y="220" width="4" height="44" rx="2" fill="url(#about-eq)" opacity="0.8500000000000001"/><rect class="eq" style="animation-delay: -0.66s" x="776" y="240" width="4" height="24" rx="2" fill="url(#about-eq)" opacity="0.55"/><rect class="eq" style="animation-delay: -0.88s" x="788" y="214" width="4" height="50" rx="2" fill="url(#about-eq)" opacity="0.7000000000000001"/><rect class="eq" style="animation-delay: -1.10s" x="800" y="230" width="4" height="34" rx="2" fill="url(#about-eq)" opacity="0.8500000000000001"/><rect class="eq" style="animation-delay: -1.32s" x="812" y="244" width="4" height="20" rx="2" fill="url(#about-eq)" opacity="0.55"/>
+  </g>
+  <text x="812" y="146" text-anchor="end" class="mono" font-size="8.5" letter-spacing="1.2" fill="#6F637F" opacity="0.6">02</text>
+</g>
+
+<g>
+  <rect x="44" y="296" width="256" height="152" rx="24" fill="url(#about-card)" stroke="rgba(117,72,201,0.21)"/>
+  <path d="M68 297H276" stroke="rgba(255,255,255,0.95)" stroke-opacity="0.8"/>
+  
+</g>
+<g>
+  <rect x="66" y="318" width="34" height="34" rx="12" fill="rgba(117,72,201,0.06)" stroke="rgba(117,72,201,0.2)"/>
+  <svg x="74" y="326" width="18" height="18" viewBox="0 0 24 24" color="#8D5CF6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="4"/><path d="m7.5 9.5 3 2.5-3 2.5M13.5 15H17"/></svg>
+  <text x="66" y="372" font-size="15.5" font-weight="600" fill="#181124" letter-spacing="-0.2">Backend &amp; Tooling</text>
+  <text x="66" y="396" font-size="12.3" fill="#5E5470">Writing Python scripts, automation</text><text x="66" y="413" font-size="12.3" fill="#5E5470">workflows, and lightweight serverless</text><text x="66" y="430" font-size="12.3" fill="#5E5470">APIs.</text>
+  <text x="278" y="326" text-anchor="end" class="mono" font-size="8.5" letter-spacing="1.2" fill="#6F637F" opacity="0.6">03</text>
+</g>
+<g>
+  <rect x="312" y="296" width="256" height="152" rx="24" fill="url(#about-card)" stroke="rgba(117,72,201,0.21)"/>
+  <path d="M336 297H544" stroke="rgba(255,255,255,0.95)" stroke-opacity="0.8"/>
+  
+</g>
+<g>
+  <rect x="334" y="318" width="34" height="34" rx="12" fill="rgba(117,72,201,0.06)" stroke="rgba(117,72,201,0.2)"/>
+  <svg x="342" y="326" width="18" height="18" viewBox="0 0 24 24" color="#8D5CF6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h2.2l1.8-4.5 2.6 9L12.4 5l2.4 10 1.7-3H21"/></svg>
+  <text x="334" y="372" font-size="15.5" font-weight="600" fill="#181124" letter-spacing="-0.2">Audio &amp; Media</text>
+  <text x="334" y="396" font-size="12.3" fill="#5E5470">Passionate about web music players,</text><text x="334" y="413" font-size="12.3" fill="#5E5470">custom components, and media</text><text x="334" y="430" font-size="12.3" fill="#5E5470">streaming.</text>
+  <text x="546" y="326" text-anchor="end" class="mono" font-size="8.5" letter-spacing="1.2" fill="#6F637F" opacity="0.6">04</text>
+</g>
+<g>
+  <rect x="580" y="296" width="256" height="152" rx="24" fill="url(#about-card)" stroke="rgba(117,72,201,0.21)"/>
+  <path d="M604 297H812" stroke="rgba(255,255,255,0.95)" stroke-opacity="0.8"/>
+  
+</g>
+<g>
+  <rect x="602" y="318" width="34" height="34" rx="12" fill="rgba(117,72,201,0.06)" stroke="rgba(117,72,201,0.2)"/>
+  <svg x="610" y="326" width="18" height="18" viewBox="0 0 24 24" color="#8D5CF6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6.5" y="6.5" width="11" height="11" rx="3"/><rect x="10.2" y="10.2" width="3.6" height="3.6" rx="1"/><path d="M9.5 3v3.5M14.5 3v3.5M9.5 17.5V21M14.5 17.5V21M3 9.5h3.5M3 14.5h3.5M17.5 9.5H21M17.5 14.5H21"/></svg>
+  <text x="602" y="372" font-size="15.5" font-weight="600" fill="#181124" letter-spacing="-0.2">Hardware &amp; Benchmarking</text>
+  <text x="602" y="396" font-size="12.3" fill="#5E5470">Deep diving into PC cooling, GPU</text><text x="602" y="413" font-size="12.3" fill="#5E5470">tuning, and system optimization.</text>
+  <text x="814" y="326" text-anchor="end" class="mono" font-size="8.5" letter-spacing="1.2" fill="#6F637F" opacity="0.6">05</text>
+</g>
+
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="284" viewBox="0 0 880 284" fill="none" role="img" aria-label="GitHub statistics for Sqwer2017: TOTAL STARS 0, PUBLIC REPOSITORIES 4, FOLLOWERS 0, CONTRIBUTIONS 7.">
+<defs><linearGradient id="stats-tile" x1="0" y1="0" x2="0.7" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EFE6FA"/></linearGradient></defs>
+<style>
+  text { font-family: 'Segoe UI Variable Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+  .display { font-family: 'Segoe UI Variable Display', 'Segoe UI Variable Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+  .enter { animation: enter 0.8s cubic-bezier(0.22, 0.68, 0, 1) backwards; }
+  .fade { animation: fade 1s ease backwards; }
+  .float { animation: float 8s ease-in-out infinite; }
+  .float-slow { animation: float 12s ease-in-out infinite; }
+  .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 11s ease-in-out infinite; }
+  .spin { transform-box: view-box; transform-origin: 215px 224px; animation: spin 52s linear infinite; }
+  .pulse { animation: pulse 7s ease-in-out infinite; }
+  .eq { transform-box: fill-box; transform-origin: bottom; animation: eq 1.6s ease-in-out infinite; }
+  @keyframes enter {
+    from { opacity: 0; transform: translateY(14px); filter: blur(6px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+  }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+  @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.018); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.85; } }
+  @keyframes eq { 0%, 100% { transform: scaleY(0.32); } 50% { transform: scaleY(1); } }
+  @media (prefers-reduced-motion: reduce) {
+    .enter, .fade, .float, .float-slow, .breathe, .spin, .pulse, .eq { animation: none !important; }
+  }
+</style>
+
+<text x="44" y="40" class="mono" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#7548C9">05 / SIGNALS</text>
+<text x="44" y="80" class="display" font-size="31" font-weight="700" letter-spacing="-0.6" fill="#181124">GitHub Statistics</text>
+<text x="836" y="76" text-anchor="end" font-size="12" fill="#6F637F">Updated Nov 8, 2026</text>
+<path d="M44 98H836" stroke="rgba(117,72,201,0.16)" stroke-width="1"/>
+
+<g>
+  <rect x="44" y="116" width="189.00" height="132" rx="22" fill="url(#stats-tile)" stroke="rgba(117,72,201,0.21)"/>
+  <path d="M66 117H211" stroke="rgba(255,255,255,0.95)" stroke-opacity="0.8"/>
+  <svg x="66" y="138" width="18" height="18" viewBox="0 0 24 24" color="#7548C9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3.2 2.65 5.55 6.1.82-4.46 4.24 1.12 6.09L12 16.98 6.59 19.9l1.12-6.09L3.25 9.57l6.1-.82L12 3.2Z"/></svg>
+  <text x="213" y="150" text-anchor="end" class="mono" font-size="8" letter-spacing="1.2" fill="#6F637F" opacity="0.6">01</text>
+  <text x="66" y="196" class="display" font-size="42" font-weight="700" letter-spacing="-1" fill="#181124">0</text>
+  <text x="66" y="216" class="mono" font-size="8.6" letter-spacing="1.5" fill="#5E5470">TOTAL STARS</text>
+  <text x="66" y="233" font-size="10.2" fill="#6F637F">across original repos</text>
+</g>
+<g>
+  <rect x="245" y="116" width="189.00" height="132" rx="22" fill="url(#stats-tile)" stroke="rgba(117,72,201,0.21)"/>
+  <path d="M267 117H412" stroke="rgba(255,255,255,0.95)" stroke-opacity="0.8"/>
+  <svg x="267" y="138" width="18" height="18" viewBox="0 0 24 24" color="#7548C9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v18H6.5A2.5 2.5 0 0 1 4 18.5v-13Z"/><path d="M8.5 3v18"/></svg>
+  <text x="414" y="150" text-anchor="end" class="mono" font-size="8" letter-spacing="1.2" fill="#6F637F" opacity="0.6">02</text>
+  <text x="267" y="196" class="display" font-size="42" font-weight="700" letter-spacing="-1" fill="#181124">4</text>
+  <text x="267" y="216" class="mono" font-size="8.6" letter-spacing="1.5" fill="#5E5470">PUBLIC REPOSITORIES</text>
+  <text x="267" y="233" font-size="10.2" fill="#6F637F">3 original · 1 fork</text>
+</g>
+<g>
+  <rect x="446" y="116" width="189.00" height="132" rx="22" fill="url(#stats-tile)" stroke="rgba(117,72,201,0.21)"/>
+  <path d="M468 117H613" stroke="rgba(255,255,255,0.95)" stroke-opacity="0.8"/>
+  <svg x="468" y="138" width="18" height="18" viewBox="0 0 24 24" color="#7548C9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.4"/><path d="M2.6 20a6.4 6.4 0 0 1 12.8 0"/><path d="M16 4.7a3.4 3.4 0 0 1 0 6.6M17.4 14.6a6 6 0 0 1 4 5.4"/></svg>
+  <text x="615" y="150" text-anchor="end" class="mono" font-size="8" letter-spacing="1.2" fill="#6F637F" opacity="0.6">03</text>
+  <text x="468" y="196" class="display" font-size="42" font-weight="700" letter-spacing="-1" fill="#181124">0</text>
+  <text x="468" y="216" class="mono" font-size="8.6" letter-spacing="1.5" fill="#5E5470">FOLLOWERS</text>
+  <text x="468" y="233" font-size="10.2" fill="#6F637F">on GitHub</text>
+</g>
+<g>
+  <rect x="647" y="116" width="189.00" height="132" rx="22" fill="url(#stats-tile)" stroke="rgba(117,72,201,0.21)"/>
+  <path d="M669 117H814" stroke="rgba(255,255,255,0.95)" stroke-opacity="0.8"/>
+  <svg x="669" y="138" width="18" height="18" viewBox="0 0 24 24" color="#7548C9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7.2" height="7.2" rx="1.8"/><rect x="13.8" y="3" width="7.2" height="7.2" rx="1.8"/><rect x="3" y="13.8" width="7.2" height="7.2" rx="1.8"/><rect x="13.8" y="13.8" width="7.2" height="7.2" rx="1.8"/></svg>
+  <text x="816" y="150" text-anchor="end" class="mono" font-size="8" letter-spacing="1.2" fill="#6F637F" opacity="0.6">04</text>
+  <text x="669" y="196" class="display" font-size="42" font-weight="700" letter-spacing="-1" fill="#181124">7</text>
+  <text x="669" y="216" class="mono" font-size="8.6" letter-spacing="1.5" fill="#5E5470">CONTRIBUTIONS</text>
+  <text x="669" y="233" font-size="10.2" fill="#6F637F">in the last year</text>
+</g>
+
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" fill="none" role="img" aria-label="ANITHINK — ANIME PLATFORM. A cyberpunk anime platform on the Shikimori API — seasonal charts, genres, search and a Live2D companion. Technologies: Next.js, TypeScript, Tailwind, Shikimori API, Live2D.">
+<defs><linearGradient id="project-card" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#1B1527"/><stop offset="1" stop-color="#120D1B"/></linearGradient>
+<linearGradient id="project-art" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#241B36"/><stop offset="0.6" stop-color="#120D1B"/><stop offset="1" stop-color="#120D1B"/></linearGradient>
+<linearGradient id="project-glyph" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#C6A6FF"/><stop offset="1" stop-color="#8D5CF6"/></linearGradient>
+<linearGradient id="project-rim" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="rgba(198,166,255,0.55)"/><stop offset="1" stop-color="rgba(141,92,246,0.15)"/></linearGradient>
+<radialGradient id="project-glow" gradientUnits="userSpaceOnUse" cx="150" cy="150" r="126">
+  <stop stop-color="#8D5CF6" stop-opacity="0.42"/>
+  <stop offset="0.55" stop-color="#8D5CF6" stop-opacity="0.1596"/>
+  <stop offset="1" stop-color="#8D5CF6" stop-opacity="0"/>
+</radialGradient>
+<pattern id="project-dots" width="18" height="18" patternUnits="userSpaceOnUse">
+  <circle cx="1" cy="1" r="1" fill="rgba(169,135,232,0.16)"/>
+</pattern>
+<linearGradient id="project-dot-fade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity="0.8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="project-dot-mask"><rect width="300" height="300" fill="url(#project-dot-fade)"/></mask>
+<clipPath id="project-art-clip"><path d="M28 0H300V300H28A28 28 0 0 1 0 272V28A28 28 0 0 1 28 0Z"/></clipPath>
+<mask id="moon-cut"><circle cx="150" cy="150" r="46" fill="#fff"/><circle cx="169" cy="135" r="43" fill="#000"/></mask></defs>
+<style>
+  text { font-family: 'Segoe UI Variable Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+  .display { font-family: 'Segoe UI Variable Display', 'Segoe UI Variable Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+  .enter { animation: enter 0.8s cubic-bezier(0.22, 0.68, 0, 1) backwards; }
+  .fade { animation: fade 1s ease backwards; }
+  .float { animation: float 8s ease-in-out infinite; }
+  .float-slow { animation: float 12s ease-in-out infinite; }
+  .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 11s ease-in-out infinite; }
+  .spin { transform-box: view-box; transform-origin: 215px 224px; animation: spin 52s linear infinite; }
+  .pulse { animation: pulse 7s ease-in-out infinite; }
+  .eq { transform-box: fill-box; transform-origin: bottom; animation: eq 1.6s ease-in-out infinite; }
+  @keyframes enter {
+    from { opacity: 0; transform: translateY(14px); filter: blur(6px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+  }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+  @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.018); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.85; } }
+  @keyframes eq { 0%, 100% { transform: scaleY(0.32); } 50% { transform: scaleY(1); } }
+  @media (prefers-reduced-motion: reduce) {
+    .enter, .fade, .float, .float-slow, .breathe, .spin, .pulse, .eq { animation: none !important; }
+  }
+</style>
+
+<rect x="0.5" y="0.5" width="879" height="299" rx="28" fill="url(#project-card)" stroke="rgba(169,135,232,0.17)"/>
+<path d="M28 1H852" stroke="rgba(255,255,255,0.055)" stroke-opacity="0.07"/>
+<g clip-path="url(#project-art-clip)">
+  <rect width="300" height="300" fill="url(#project-art)"/>
+  <rect width="300" height="300" fill="url(#project-dots)" mask="url(#project-dot-mask)" opacity="0.55"/>
+  <rect width="300" height="300" fill="url(#project-glow)"/>
+  <g>
+  <text x="24" y="32" class="mono" font-size="8.5" letter-spacing="1.6" fill="#8A7F9C" opacity="0.8">02 / FEATURED</text>
+  <g class="spin" style="transform-origin: 150px 150px; animation-duration: 72s">
+    <circle cx="150" cy="150" r="112" stroke="rgba(169,135,232,0.22)" stroke-width="1"/>
+    <circle cx="150" cy="150" r="88" stroke="rgba(169,135,232,0.32)" stroke-width="1" stroke-dasharray="2 9"/>
+    <circle cx="238" cy="150" r="2.2" fill="#C6A6FF"/>
+  </g>
+  <path d="M122 104H178A26 26 0 0 1 204 130V170A26 26 0 0 1 178 196H140L110 218L118 196H122A26 26 0 0 1 96 170V130A26 26 0 0 1 122 104Z" fill="#1B1527" stroke="url(#project-rim)" stroke-width="1.4"/>
+  <text x="150" y="174" text-anchor="middle" class="display" font-size="62" font-weight="800" letter-spacing="-1" fill="url(#project-glyph)">A</text>
+  <circle cx="206" cy="92" r="3" fill="#C6A6FF" opacity="0.85"/>
+  <circle cx="220" cy="80" r="2.2" fill="#C6A6FF" opacity="0.5"/>
+  <circle cx="231" cy="70" r="1.5" fill="#C6A6FF" opacity="0.3"/>
+  <path d="M96 240l2 5.6 5.6 2-5.6 2-2 5.6-2-5.6-5.6-2 5.6-2z" fill="#A987E8" opacity="0.8"/>
+  <path d="M210 228l1.5 4.2 4.2 1.5-4.2 1.5-1.5 4.2-1.5-4.2-4.2-1.5 4.2-1.5z" fill="#C6A6FF" opacity="0.55"/>
+  <text x="24" y="280" class="mono" font-size="8" letter-spacing="1.4" fill="#8A7F9C" opacity="0.6">SQWER / 2026</text>
+</g>
+</g>
+<path d="M300 0V300" stroke="rgba(169,135,232,0.12)"/>
+
+<circle cx="340" cy="46" r="2.8" fill="#A987E8"/>
+<text x="352" y="50" class="mono" font-size="9.5" font-weight="600" letter-spacing="1.8" fill="#A987E8">ANIME PLATFORM</text>
+<text x="836" y="50" text-anchor="end" class="mono" font-size="8.5" letter-spacing="1.2" fill="#8A7F9C" opacity="0.65">02 / 02</text>
+
+<text x="338" y="112" class="display" font-size="40" font-weight="700" letter-spacing="-0.5" fill="#F1ECF8">ANITHINK</text>
+<g>
+  <circle cx="812" cy="108" r="22" fill="rgba(169,135,232,0.065)" stroke="rgba(169,135,232,0.32)"/>
+  <svg x="803" y="99" width="18" height="18" viewBox="0 0 24 24" color="#A987E8" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+</g>
+
+<text x="340" y="148" font-size="13.4" fill="#A69BB8">A cyberpunk anime platform on the Shikimori API — seasonal charts, genres,</text>
+<text x="340" y="169" font-size="13.4" fill="#A69BB8">search and a Live2D companion.</text>
+
+<g><rect x="340" y="208" width="52.088" height="25" rx="12.5" fill="rgba(169,135,232,0.065)" stroke="rgba(169,135,232,0.16)"/>
+<text x="350" y="224.5" font-size="10.5" fill="#A69BB8">Next.js</text>
+<rect x="399.088" y="208" width="70.17949999999999" height="25" rx="12.5" fill="rgba(169,135,232,0.065)" stroke="rgba(169,135,232,0.16)"/>
+<text x="409.088" y="224.5" font-size="10.5" fill="#A69BB8">TypeScript</text>
+<rect x="476.26750000000004" y="208" width="58.5035" height="25" rx="12.5" fill="rgba(169,135,232,0.065)" stroke="rgba(169,135,232,0.16)"/>
+<text x="486.26750000000004" y="224.5" font-size="10.5" fill="#A69BB8">Tailwind</text>
+<rect x="541.7710000000001" y="208" width="83.01050000000001" height="25" rx="12.5" fill="rgba(169,135,232,0.065)" stroke="rgba(169,135,232,0.16)"/>
+<text x="551.7710000000001" y="224.5" font-size="10.5" fill="#A69BB8">Shikimori API</text>
+<rect x="631.7815" y="208" width="52.676" height="25" rx="12.5" fill="rgba(169,135,232,0.065)" stroke="rgba(169,135,232,0.16)"/>
+<text x="641.7815" y="224.5" font-size="10.5" fill="#A69BB8">Live2D</text></g>
+
+<g>
+  <rect x="340" y="250" width="81.6112" height="32" rx="16" fill="rgba(169,135,232,0.065)" stroke="rgba(169,135,232,0.16)"/>
+  <svg x="352" y="259" width="14" height="14" viewBox="0 0 24 24" color="#C6A6FF" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3.2 2.65 5.55 6.1.82-4.46 4.24 1.12 6.09L12 16.98 6.59 19.9l1.12-6.09L3.25 9.57l6.1-.82L12 3.2Z"/></svg>
+  <text x="372" y="270.5" font-size="11.2" fill="#A69BB8"><tspan font-weight="600" fill="#F1ECF8">0</tspan> stars</text>
+</g>
+
+<g>
+  <rect x="703.3975" y="248" width="132.60250000000002" height="36" rx="18" fill="rgba(169,135,232,0.12)" stroke="rgba(169,135,232,0.3)"/>
+  <text x="719.3975" y="270.5" font-size="11.5" font-weight="500" fill="#A987E8">View repository</text>
+  <svg x="806" y="259" width="14" height="14" viewBox="0 0 24 24" color="#A987E8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg>
+</g>
+
+<rect x="0.5" y="0.5" width="879" height="299" rx="28" stroke="rgba(169,135,232,0.17)"/>
+
+</svg>

@@ -1,0 +1,31 @@
+:root {
+  --font-sans: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Segoe UI Variable Display", "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Cascadia Code", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+
+  --container: 1200px;
+  --gutter: clamp(20px, 4vw, 40px);
+  --nav-h: 78px;
+  --section-gap: clamp(88px, 11vw, 148px);
+
+  --radius-xs: 10px;
+  --radius-sm: 14px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-xl: 36px;
+  --radius-pill: 999px;
+
+  --ease: cubic-bezier(0.22, 0.68, 0, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 180ms;
+  --dur: 420ms;
+  --dur-slow: 800ms;
+
+  --shadow-soft: 0 28px 90px rgba(0, 0, 0, 0.38);
+  --shadow-card: 0 18px 50px rgba(0, 0, 0, 0.22);
+}
+
+[data-theme="light"] {
+  --shadow-soft: 0 28px 90px rgba(95, 53, 184, 0.12);
+  --shadow-card: 0 18px 50px rgba(95, 53, 184, 0.08);
+}

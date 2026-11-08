@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "title": "Sqwer — Frontend Developer & UI Enthusiast",
+    "description": "A dark-violet interactive profile: selected work, tools, GitHub signals and a small custom design system.",
+    "siteUrl": "https://sqwer2017.github.io/Sqwer2017/",
+    "repoUrl": "https://github.com/Sqwer2017/Sqwer2017",
+    "language": "en"
+  },
+  "identity": {
+    "name": "Sqwer",
+    "displayName": "SQWER",
+    "handle": "Sqwer2017",
+    "greeting": "HELLO, I'M",
+    "role": "Frontend Developer",
+    "subrole": "UI Enthusiast",
+    "description": "Building digital experiences, experimenting with ideas and creating things that matter.",
+    "chips": [
+      "React / TypeScript",
+      "UI / UX",
+      "Musicaholic"
+    ],
+    "avatarAlt": "Sqwer's avatar: a violet-lit character with glowing eyes and dark horns",
+    "avatar": "assets/images/avatar.jpg",
+    "background": "assets/images/background.jpg",
+    "backgroundAlt": "Glowing violet spider lilies on a black background"
+  },
+  "palette": {
+    "dark": {
+      "background": "#0D0A13",
+      "backgroundAlt": "#15101F",
+      "surface": "#1D172A",
+      "surfaceAlt": "#261D36",
+      "accent": "#A987E8",
+      "accentBright": "#C6A6FF",
+      "accentDeep": "#8D5CF6",
+      "text": "#F1ECF8",
+      "textMuted": "#A69BB8",
+      "textFaint": "#8A7F9C"
+    },
+    "light": {
+      "background": "#F7F4FC",
+      "backgroundAlt": "#EFE8F8",
+      "surface": "#FFFFFF",
+      "surfaceAlt": "#F5F0FC",
+      "accent": "#7548C9",
+      "accentBright": "#8D5CF6",
+      "accentDeep": "#5F35B8",
+      "text": "#181124",
+      "textMuted": "#5E5470",
+      "textFaint": "#6F637F"
+    }
+  },
+  "links": {
+    "github": "https://github.com/Sqwer2017",
+    "telegram": "https://t.me/Eerroorree",
+    "steam": "https://steamcommunity.com/profiles/76561199228246139/"
+  },
+  "socials": [
+    {
+      "id": "telegram",
+      "label": "Telegram",
+      "handle": "@Eerroorree",
+      "icon": "telegram",
+      "url": "https://t.me/Eerroorree"
+    },
+    {
+      "id": "steam",
+      "label": "Steam",
+      "handle": "76561199228246139",
+      "icon": "steam",
+      "url": "https://steamcommunity.com/profiles/76561199228246139/"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "handle": "@Sqwer2017",
+      "icon": "github",
+      "url": "https://github.com/Sqwer2017"
+    }
+  ],
+  "sections": {
+    "order": [
+      "hero",
+      "socials",
+      "about",
+      "stack",
+      "projects",
+      "stats",
+      "activity",
+      "footer"
+    ],
+    "visible": {
+      "hero": true,
+      "socials": true,
+      "about": true,
+      "stack": true,
+      "projects": true,
+      "stats": true,
+      "activity": true,
+      "footer": true
+    }
+  },
+  "socialsSection": {
+    "eyebrow": "01 / CONNECT",
+    "title": "Around the web",
+    "note": "Three places to find me.",
+    "art": "assets/svg/socials"
+  },
+  "about": {
+    "eyebrow": "02 / ABOUT",
+    "title": "About Me",
+    "note": "A short version of what I do, in five pieces.",
+    "cards": [
+      {
+        "id": "frontend",
+        "icon": "ui-code",
+        "title": "Frontend & UI/UX",
+        "text": "Building responsive, fast, and interactive web applications (React / TS / Tailwind).",
+        "size": "wide"
+      },
+      {
+        "id": "personal",
+        "icon": "ui-music",
+        "title": "Personal",
+        "text": "Musicaholic.",
+        "size": "feature"
+      },
+      {
+        "id": "backend",
+        "icon": "ui-terminal",
+        "title": "Backend & Tooling",
+        "text": "Writing Python scripts, automation workflows, and lightweight serverless APIs.",
+        "size": "normal"
+      },
+      {
+        "id": "audio",
+        "icon": "ui-wave",
+        "title": "Audio & Media",
+        "text": "Passionate about web music players, custom components, and media streaming.",
+        "size": "normal"
+      },
+      {
+        "id": "hardware",
+        "icon": "ui-cpu",
+        "title": "Hardware & Benchmarking",
+        "text": "Deep diving into PC cooling, GPU tuning, and system optimization.",
+        "size": "normal"
+      }
+    ]
+  },
+  "stack": {
+    "eyebrow": "03 / TOOLKIT",
+    "title": "Tech Stack",
+    "note": "The tools I reach for most.",
+    "groups": [
+      {
+        "id": "main",
+        "label": "MAIN",
+        "items": [
+          {
+            "id": "react",
+            "label": "React"
+          },
+          {
+            "id": "typescript",
+            "label": "TypeScript"
+          },
+          {
+            "id": "javascript",
+            "label": "JavaScript"
+          },
+          {
+            "id": "html5",
+            "label": "HTML"
+          },
+          {
+            "id": "css",
+            "label": "CSS"
+          },
+          {
+            "id": "tailwindcss",
+            "label": "Tailwind CSS"
+          },
+          {
+            "id": "python",
+            "label": "Python"
+          },
+          {
+            "id": "nodedotjs",
+            "label": "Node.js"
+          },
+          {
+            "id": "gnubash",
+            "label": "Shell"
+          }
+        ]
+      },
+      {
+        "id": "tools",
+        "label": "TOOLS",
+        "items": [
+          {
+            "id": "git",
+            "label": "Git"
+          },
+          {
+            "id": "github",
+            "label": "GitHub"
+          },
+          {
+            "id": "githubactions",
+            "label": "GitHub Actions"
+          },
+          {
+            "id": "telegram",
+            "label": "Telegram"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "04 / WORK",
+    "title": "Featured Projects",
+    "note": "Two things I keep coming back to.",
+    "items": [
+      {
+        "id": "noctra",
+        "name": "NOCTRA",
+        "index": "01",
+        "category": "MUSIC WORKSPACE",
+        "description": "A desktop-style music workspace with YouTube, Audius and Telegram sources, Supabase profiles, listening stats and an Android build via Capacitor.",
+        "tech": [
+          "React 19",
+          "TypeScript",
+          "Tailwind",
+          "Supabase",
+          "Capacitor"
+        ],
+        "repo": "https://github.com/Sqwer2017/noctra",
+        "live": "https://noctra-psi.vercel.app",
+        "glyph": "moon",
+        "accent": "#C6A6FF"
+      },
+      {
+        "id": "anithink",
+        "name": "ANITHINK",
+        "index": "02",
+        "category": "ANIME PLATFORM",
+        "description": "A cyberpunk anime platform on the Shikimori API — seasonal charts, genres, search and a Live2D companion.",
+        "tech": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind",
+          "Shikimori API",
+          "Live2D"
+        ],
+        "repo": "https://github.com/Sqwer2017/anithink",
+        "live": "https://anithink.vercel.app",
+        "glyph": "orb",
+        "accent": "#A987E8"
+      }
+    ]
+  },
+  "stats": {
+    "username": "Sqwer2017",
+    "eyebrow": "05 / SIGNALS",
+    "title": "GitHub Statistics",
+    "note": "Public numbers, refreshed automatically.",
+    "show": {
+      "stars": true,
+      "repos": true,
+      "followers": true,
+      "contributions": true
+    }
+  },
+  "activity": {
+    "eyebrow": "06 / ACTIVITY",
+    "title": "Activity",
+    "note": "A year of commits, month by month.",
+    "weeks": 53,
+    "showLanguages": true
+  },
+  "footer": {
+    "line": "Thanks for stopping by.",
+    "note": "Built with care, code and a lot of music.",
+    "copyright": "© {year} Sqwer"
+  },
+  "theme": {
+    "default": "dark",
+    "allowToggle": true,
+    "rememberChoice": true
+  },
+  "animations": {
+    "enabled": true,
+    "respectReducedMotion": true,
+    "speed": 1,
+    "particles": {
+      "enabled": true,
+      "density": 0.65
+    },
+    "morphing": {
+      "enabled": true,
+      "intensity": 0.7
+    },
+    "customCursor": true,
+    "ripples": true,
+    "scrollReveal": true,
+    "heroParallax": true
+  }
+}

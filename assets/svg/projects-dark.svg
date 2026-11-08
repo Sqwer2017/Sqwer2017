@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="112" viewBox="0 0 880 112" fill="none" role="img" aria-label="Featured Projects. Two things I keep coming back to.">
+<defs></defs>
+<style>
+  text { font-family: 'Segoe UI Variable Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+  .display { font-family: 'Segoe UI Variable Display', 'Segoe UI Variable Text', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+  .enter { animation: enter 0.8s cubic-bezier(0.22, 0.68, 0, 1) backwards; }
+  .fade { animation: fade 1s ease backwards; }
+  .float { animation: float 8s ease-in-out infinite; }
+  .float-slow { animation: float 12s ease-in-out infinite; }
+  .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 11s ease-in-out infinite; }
+  .spin { transform-box: view-box; transform-origin: 215px 224px; animation: spin 52s linear infinite; }
+  .pulse { animation: pulse 7s ease-in-out infinite; }
+  .eq { transform-box: fill-box; transform-origin: bottom; animation: eq 1.6s ease-in-out infinite; }
+  @keyframes enter {
+    from { opacity: 0; transform: translateY(14px); filter: blur(6px); }
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+  }
+  @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+  @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.018); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes pulse { 0%, 100% { opacity: 0.45; } 50% { opacity: 0.85; } }
+  @keyframes eq { 0%, 100% { transform: scaleY(0.32); } 50% { transform: scaleY(1); } }
+  @media (prefers-reduced-motion: reduce) {
+    .enter, .fade, .float, .float-slow, .breathe, .spin, .pulse, .eq { animation: none !important; }
+  }
+</style>
+<text x="44" y="40" class="mono" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#A987E8">04 / WORK</text>
+<text x="44" y="80" class="display" font-size="31" font-weight="700" letter-spacing="-0.6" fill="#F1ECF8">Featured Projects</text>
+<text x="836" y="76" text-anchor="end" font-size="12" fill="#8A7F9C">Two things I keep coming back to.</text>
+<path d="M44 98H836" stroke="rgba(169,135,232,0.12)" stroke-width="1"/>
+</svg>
